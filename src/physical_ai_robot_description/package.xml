@@ -2,7 +2,7 @@
 <package format="3">
   <name>physical_ai_robot_description</name>
   <version>0.1.0</version>
-  <description>MDH100 two-wheel differential-drive robot with four passive casters for Gazebo Classic and ROS 2 Humble.</description>
+  <description>사용자 추종 자율주행 운반 로봇: MDH100 2WD and four passive casters. Gazebo Classic simulation, SLAM and Nav2 on ROS 2 Humble. Integrated user following is planned.</description>
   <maintainer email="user@example.com">Physical AI Robot</maintainer>
   <license>Apache-2.0</license>
 

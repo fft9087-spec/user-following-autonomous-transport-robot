@@ -1,13 +1,13 @@
-# 사용자 추종 운반 로봇
+# 사용자 추종 자율주행 운반 로봇
 
 ![Gazebo 로봇 모델](outputs/media/robot_model_gazebo.png)
 
-[35초 시뮬레이션 영상](outputs/media/robot_gazebo_rviz_corner_35s.mp4) · [발표자료](presentation/사용자추종_운반로봇_캡스톤_발표자료.pptx)
+[35초 시뮬레이션 영상](outputs/media/robot_gazebo_rviz_corner_35s.mp4) · [발표자료](presentation/사용자_추종_자율주행_운반_로봇_캡스톤_발표자료.pptx)
 
 
 ## 1. 프로젝트와 현재 구현 범위
 
-본 프로젝트는 작업자가 실내 창고의 여러 선반을 이동하며 물품을 모으는 과정에서 운반 부담을 줄이는 사용자 추종 운반 로봇을 개발하는 것을 목표로 합니다. 최종적으로 사람 인식·추적과 자율주행 기술을 결합하고, 키링과 같은 작은 표식을 사용자 식별의 보조 정보로 활용하는 방식을 연구하고자 합니다.
+본 프로젝트는 작업자가 실내 창고의 여러 선반을 이동하며 물품을 모으는 과정에서 운반 부담을 줄이는 사용자 추종 자율주행 운반 로봇을 개발하는 것을 목표로 합니다. 최종적으로 사람 인식·추적과 자율주행 기술을 결합하고, 키링과 같은 작은 표식을 사용자 식별의 보조 정보로 활용하는 방식을 연구하고자 합니다.
 
 구동 구조는 MDH100 인휠모터 2개와 회전 캐스터 4개를 사용하는 2WD 구조로 설계했습니다. 알루미늄 3030 프로파일 프레임을 바탕으로 모터 축 고정판, 캐스터 장착판과 높이 조절심, 배터리·모터 드라이버·센서의 배치를 검토하고 CAD 도면에 반영했습니다.
 
@@ -24,7 +24,7 @@
 ## 2. 폴더 구성
 
 ```text
-user-following-robot/
+user-following-autonomous-transport-robot/
   presentation/  제출용 PPT와 해당 순서의 발표 대본
   src/physical_ai_robot_description/  ROS 2 패키지, URDF, CAD 메시, 맵, 월드, 설정
   scripts/       빌드·실행·키보드 조종·지도 저장·코너 시험
@@ -58,7 +58,7 @@ sudo apt install python3-colcon-common-extensions python3-yaml \
 
 GitHub에서 저장소를 복제하거나 ZIP을 압축 해제한 뒤 **이 README.md가 있는 프로젝트 폴더 안에서** 터미널을 엽니다. WSL에서는 Windows 경로가 `/mnt/c/...`로 보입니다. 공백이 있는 경로에는 따옴표를 사용합니다.
 ```bash
-cd '/mnt/c/프로젝트가 있는 경로/user-following-robot'
+cd '/mnt/c/프로젝트가 있는 경로/user-following-autonomous-transport-robot'
 bash scripts/build.sh
 ```
 소스를 Linux의 `~/capstone_robot_ws`로 복사해 빌드합니다. 다른 작업공간은 `export CAPSTONE_WS="$HOME/원하는_작업공간"`으로 지정하고 모든 터미널에서 동일하게 사용합니다.
