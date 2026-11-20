@@ -1,0 +1,14 @@
+{
+  "kind": "submission headless initialization smoke test",
+  "new_navigation_benchmark": false,
+  "passed": true,
+  "observations": {
+    "map_cells": 26569,
+    "scan_rays": 720,
+    "odom": true
+  },
+  "controller_active": true,
+  "map_to_base_link": true,
+  "navigate_action_ready": true,
+  "elapsed_seconds": 11.44
+}

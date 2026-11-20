@@ -1,0 +1,30 @@
+{
+  "selected_profile": "trial_balanced.yaml",
+  "generated_source": "src/physical_ai_robot_description/config/nav2_mdh100.yaml",
+  "persistent_override": "config/mdh100_navigation_tuning.yaml",
+  "source_sha256": "f42c63c3c5d4c8ae06a7eb195dc5d56442bae55dc94cdfda1d6f4276227d15ac",
+  "validation_runs": [
+    "balanced_loop_1",
+    "balanced_loop_2",
+    "final_loop_3"
+  ],
+  "successful_corner_legs": 12,
+  "mean_four_corner_wall_seconds": 91.68,
+  "baseline_wall_seconds": 111.24,
+  "observed_time_reduction_percent": 17.58360302049622,
+  "minimum_clearance_main_course_m": 0.1359,
+  "scope": "unloaded rigid-body CAD v11, original static corridor layout; east gap 1.10m",
+  "not_validated": [
+    "reliable 0.80m roundtrip",
+    "payload driving",
+    "hardware performance"
+  ],
+  "final_state": "final_state.json",
+  "rejected_trial_profiles": [
+    "trial_clearance.yaml",
+    "trial_margin20.yaml",
+    "trial_rpp.yaml",
+    "trial_rpp_precise.yaml",
+    "trial_rpp_final.yaml"
+  ]
+}

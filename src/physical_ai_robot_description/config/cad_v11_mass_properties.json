@@ -1,0 +1,3625 @@
+{
+  "cad_revision": "v11 + Nov18 mounting revision",
+  "cad_occurrences": 467,
+  "triangles": {
+    "base_link": 322730,
+    "laser_frame": 408,
+    "front_left_caster_swivel_link": 35300,
+    "front_left_caster_wheel_link": 14280,
+    "front_right_caster_swivel_link": 35300,
+    "front_right_caster_wheel_link": 14280,
+    "rear_left_caster_swivel_link": 35300,
+    "rear_left_caster_wheel_link": 14280,
+    "rear_right_caster_swivel_link": 35300,
+    "rear_right_caster_wheel_link": 14280,
+    "center_left_wheel_link": 69396,
+    "center_right_wheel_link": 69396
+  },
+  "bounds_m": [
+    [
+      -0.22000000000000003,
+      -0.23575000000000002,
+      -8.097673920293147e-10
+    ],
+    [
+      0.3551,
+      0.23575000000000002,
+      0.332
+    ]
+  ],
+  "estimated_empty_mass_kg": 20.848601406884082,
+  "links": {
+    "base_link": {
+      "mass": 14.20860140688407,
+      "com": [
+        0.002119946119897786,
+        -0.0047860380248636696,
+        0.19852339708709835
+      ],
+      "inertia": [
+        [
+          0.25149919503129436,
+          -0.005501452086344106,
+          -0.008081973159715816
+        ],
+        [
+          -0.005501452086344106,
+          0.3306975272182607,
+          -0.002368757028021417
+        ],
+        [
+          -0.008081973159715816,
+          -0.002368757028021417,
+          0.4031903137589894
+        ]
+      ]
+    },
+    "front_left_caster_swivel_link": {
+      "mass": 0.16,
+      "com": [
+        -0.0027499994161563346,
+        0.000499999653211014,
+        -0.027499999529467398
+      ],
+      "inertia": [
+        [
+          6.854666315446574e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.43366619861994e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.22166612344564e-05
+        ]
+      ]
+    },
+    "front_left_caster_wheel_link": {
+      "mass": 0.1,
+      "com": [
+        1.0327255162145832e-09,
+        -1.6048158645864952e-06,
+        -4.640018794882517e-08
+      ],
+      "inertia": [
+        [
+          2.8754530140634824e-05,
+          -1.3640791267464566e-12,
+          3.5762243496480556e-13
+        ],
+        [
+          -1.3640791267464566e-12,
+          4.9382954508073515e-05,
+          -4.0423442660892146e-12
+        ],
+        [
+          3.5762243496480556e-13,
+          -4.0423442660892146e-12,
+          2.8754566034212024e-05
+        ]
+      ]
+    },
+    "front_right_caster_swivel_link": {
+      "mass": 0.16,
+      "com": [
+        -0.0027499994161563346,
+        0.000499999653211014,
+        -0.027499999529467398
+      ],
+      "inertia": [
+        [
+          6.854666315446574e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.43366619861994e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.22166612344564e-05
+        ]
+      ]
+    },
+    "front_right_caster_wheel_link": {
+      "mass": 0.1,
+      "com": [
+        1.0327255162145832e-09,
+        -1.6048158645864952e-06,
+        -4.640018794882517e-08
+      ],
+      "inertia": [
+        [
+          2.8754530140634824e-05,
+          -1.3640791267464566e-12,
+          3.5762243496480556e-13
+        ],
+        [
+          -1.3640791267464566e-12,
+          4.9382954508073515e-05,
+          -4.0423442660892146e-12
+        ],
+        [
+          3.5762243496480556e-13,
+          -4.0423442660892146e-12,
+          2.8754566034212024e-05
+        ]
+      ]
+    },
+    "rear_left_caster_swivel_link": {
+      "mass": 0.16,
+      "com": [
+        -0.0027499994161563346,
+        0.000499999653211014,
+        -0.027499999529467398
+      ],
+      "inertia": [
+        [
+          6.854666315446574e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.43366619861994e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.22166612344564e-05
+        ]
+      ]
+    },
+    "rear_left_caster_wheel_link": {
+      "mass": 0.1,
+      "com": [
+        1.0327255439701588e-09,
+        -1.6048158645864952e-06,
+        -4.640018794882517e-08
+      ],
+      "inertia": [
+        [
+          2.8754530140634824e-05,
+          -1.3640791267464566e-12,
+          3.5762243496480556e-13
+        ],
+        [
+          -1.3640791267464566e-12,
+          4.9382954508073515e-05,
+          -4.0423442660892146e-12
+        ],
+        [
+          3.5762243496480556e-13,
+          -4.0423442660892146e-12,
+          2.8754566034212024e-05
+        ]
+      ]
+    },
+    "rear_right_caster_swivel_link": {
+      "mass": 0.16,
+      "com": [
+        -0.0027499994161563346,
+        0.000499999653211014,
+        -0.027499999529467398
+      ],
+      "inertia": [
+        [
+          6.854666315446574e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.43366619861994e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.22166612344564e-05
+        ]
+      ]
+    },
+    "rear_right_caster_wheel_link": {
+      "mass": 0.1,
+      "com": [
+        1.0327255439701588e-09,
+        -1.6048158645864952e-06,
+        -4.640018794882517e-08
+      ],
+      "inertia": [
+        [
+          2.8754530140634824e-05,
+          -1.3640791267464566e-12,
+          3.5762243496480556e-13
+        ],
+        [
+          -1.3640791267464566e-12,
+          4.9382954508073515e-05,
+          -4.0423442660892146e-12
+        ],
+        [
+          3.5762243496480556e-13,
+          -4.0423442660892146e-12,
+          2.8754566034212024e-05
+        ]
+      ]
+    },
+    "center_left_wheel_link": {
+      "mass": 2.8,
+      "com": [
+        3.71471378298512e-09,
+        0.0007727585066802656,
+        -7.985659217224494e-09
+      ],
+      "inertia": [
+        [
+          0.004293021171857988,
+          2.9171678969140256e-10,
+          -2.8063253658918766e-09
+        ],
+        [
+          2.9171678969140256e-10,
+          0.007168518643903016,
+          3.091783559586605e-09
+        ],
+        [
+          -2.8063253658735707e-09,
+          3.091783559586605e-09,
+          0.004293116027931678
+        ]
+      ]
+    },
+    "center_right_wheel_link": {
+      "mass": 2.8,
+      "com": [
+        -3.71471378298512e-09,
+        -0.0007727585066802656,
+        -7.985659217224494e-09
+      ],
+      "inertia": [
+        [
+          0.004293021171857988,
+          2.9171678969140256e-10,
+          2.8063253658918766e-09
+        ],
+        [
+          2.9171678969140256e-10,
+          0.007168518643903016,
+          -3.091783559586605e-09
+        ],
+        [
+          2.8063253658735707e-09,
+          -3.091783559586605e-09,
+          0.004293116027931678
+        ]
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Lower_Frame_Long_Left",
+      "group": "LOWER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.378,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Upper_Frame_Long_Left",
+      "group": "UPPER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.378,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Lower_Frame_Long_Right",
+      "group": "LOWER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.378,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Upper_Frame_Long_Right",
+      "group": "UPPER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.378,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Lower_Frame_Cross_Rear",
+      "group": "LOWER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Upper_Frame_Cross_Rear",
+      "group": "UPPER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Lower_Frame_Cross_Added_Rear",
+      "group": "LOWER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Upper_Frame_Cross_Added_Rear",
+      "group": "UPPER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Lower_Frame_Cross_Center",
+      "group": "LOWER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Upper_Frame_Cross_Center",
+      "group": "UPPER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Lower_Frame_Cross_Added_Front",
+      "group": "LOWER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Upper_Frame_Cross_Added_Front",
+      "group": "UPPER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Lower_Frame_Cross_Front",
+      "group": "LOWER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Upper_Frame_Cross_Front",
+      "group": "UPPER_FRAME",
+      "link": "base_link",
+      "mass_kg": 0.234,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "Top_Deck",
+      "group": "STRUCTURE",
+      "link": "base_link",
+      "mass_kg": 1.440768,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampAdapter_Left_1",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022394434305609362,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampStrap_Left_1",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022001986451690127,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampNut_Left_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0011244936258105662,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampBolt_Left_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004685725707446354,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampWasher_Left_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Left_1_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Left_1_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Left_1_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Left_1_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Left_1_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Left_1_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampAdapter_Left_2",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022394434305609362,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampStrap_Left_2",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022001986451690127,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampNut_Left_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0011244936258105662,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampBolt_Left_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004685725707446354,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampWasher_Left_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Left_2_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Left_2_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Left_2_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Left_2_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Left_2_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Left_2_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampAdapter_Left_3",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022394434305609362,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampStrap_Left_3",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022001986451690127,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampNut_Left_3",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0011244936258105662,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampBolt_Left_3",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004685725707446354,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampWasher_Left_3",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Left_3_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Left_3_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Left_3_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Left_3_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Left_3_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Left_3_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampAdapter_Right_1",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022394434305609362,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampStrap_Right_1",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022001986451690127,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampNut_Right_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0011244936258105662,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampBolt_Right_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004685725707446354,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampWasher_Right_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Right_1_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Right_1_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Right_1_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Right_1_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Right_1_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Right_1_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampAdapter_Right_2",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022394434305609362,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampStrap_Right_2",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022001986451690127,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampNut_Right_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0011244936258105662,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampBolt_Right_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004685725707446354,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampWasher_Right_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Right_2_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Right_2_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Right_2_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Right_2_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Right_2_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Right_2_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampAdapter_Right_3",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022394434305609362,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampStrap_Right_3",
+      "group": "DECK_CLAMP",
+      "link": "base_link",
+      "mass_kg": 0.022001986451690127,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "ClampNut_Right_3",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0011244936258105662,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampBolt_Right_3",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004685725707446354,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "ClampWasher_Right_3",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Right_3_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Right_3_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Right_3_1",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterTnut_Right_3_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterBolt_Right_3_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AdapterWasher_Right_3_2",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "EndStop_Front",
+      "group": "DECK_STOP",
+      "link": "base_link",
+      "mass_kg": 0.00767893782483789,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "EndStopTnut_Front",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "EndStopBolt_Front",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "EndStopWasher_Front",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "EndStop_Rear",
+      "group": "DECK_STOP",
+      "link": "base_link",
+      "mass_kg": 0.00767893782483789,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "EndStopTnut_Rear",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "EndStopBolt_Rear",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "EndStopWasher_Rear",
+      "group": "DECK_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Lower_Battery_Tray",
+      "group": "BATTERY_SUPPORT",
+      "link": "base_link",
+      "mass_kg": 0.67536,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "Column_Rear_Right",
+      "group": "COLUMN",
+      "link": "base_link",
+      "mass_kg": 0.108,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "CornerBracket_Rear_Right_Lower_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Rear_Right_Lower_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Rear_Right_Upper_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Rear_Right_Upper_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Column_Rear_Left",
+      "group": "COLUMN",
+      "link": "base_link",
+      "mass_kg": 0.108,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "CornerBracket_Rear_Left_Lower_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Rear_Left_Lower_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Rear_Left_Upper_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Rear_Left_Upper_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Rear_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Rear_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Rear_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Rear_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Rear_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Rear_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Column_Front_Right",
+      "group": "COLUMN",
+      "link": "base_link",
+      "mass_kg": 0.108,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "CornerBracket_Front_Right_Lower_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Right_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Front_Right_Lower_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Right_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Front_Right_Upper_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Right_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Front_Right_Upper_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Right_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Column_Front_Left",
+      "group": "COLUMN",
+      "link": "base_link",
+      "mass_kg": 0.108,
+      "basis": "3030 reference linear mass 0.9kg/m, not measured"
+    },
+    {
+      "name": "CornerBracket_Front_Left_Lower_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Left_Lower_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Front_Left_Lower_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Left_Lower_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Front_Left_Upper_X",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Left_Upper_X",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CornerBracket_Front_Left_Upper_Y",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "PostTnut_Front_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostBolt_Front_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "PostWasher_Front_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailTnut_Front_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailBolt_Front_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RailWasher_Front_Left_Upper_Y",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Lower_1_-1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Lower_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Lower_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Lower_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Lower_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Lower_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Lower_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Lower_1_1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Lower_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Lower_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Lower_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Lower_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Lower_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Lower_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Lower_2_-1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Lower_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Lower_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Lower_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Lower_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Lower_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Lower_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Lower_2_1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Lower_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Lower_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Lower_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Lower_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Lower_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Lower_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Lower_3_-1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Lower_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Lower_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Lower_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Lower_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Lower_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Lower_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Lower_3_1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Lower_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Lower_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Lower_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Lower_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Lower_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Lower_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Upper_1_-1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Upper_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Upper_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Upper_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Upper_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Upper_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Upper_1_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Upper_1_1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Upper_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Upper_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Upper_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Upper_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Upper_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Upper_1_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Upper_2_-1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Upper_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Upper_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Upper_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Upper_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Upper_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Upper_2_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Upper_2_1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Upper_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Upper_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Upper_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Upper_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Upper_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Upper_2_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Upper_3_-1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Upper_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Upper_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Upper_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Upper_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Upper_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Upper_3_-1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBracket_Upper_3_1",
+      "group": "FRAME_CONNECTOR",
+      "link": "base_link",
+      "mass_kg": 0.014093072848837011,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "CrossbarTnut_Upper_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarBolt_Upper_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CrossbarWasher_Upper_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailTnut_Upper_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002505554525735308,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailBolt_Upper_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004071296663125499,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "LongRailWasher_Upper_3_1",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.000429868700928976,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RPLIDAR_A1_Base",
+      "group": "SENSORS",
+      "link": "base_link",
+      "mass_kg": 0.07,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "RPLIDAR_A1_Scanner",
+      "group": "SENSORS",
+      "link": "base_link",
+      "mass_kg": 0.1,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "CasterBracket_Front_Left",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.04372360858717832,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "CasterShim_Front_Left",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.018542504620587184,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "GL65_Caster_Front_Left/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "base_link",
+      "mass_kg": 0.04,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Front_Left/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "front_left_caster_swivel_link",
+      "mass_kg": 0.16,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Front_Left/GDS-65-WHEEL_Sub Assy_Rev01:2",
+      "group": "SELECTED_CASTER",
+      "link": "front_left_caster_wheel_link",
+      "mass_kg": 0.1,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "CasterWasherLower_Front_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Front_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Front_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Front_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBracket_Front_Right",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.04372360858717832,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "CasterShim_Front_Right",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.018542504620587184,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "GL65_Caster_Front_Right/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "base_link",
+      "mass_kg": 0.04,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Front_Right/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "front_right_caster_swivel_link",
+      "mass_kg": 0.16,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Front_Right/GDS-65-WHEEL_Sub Assy_Rev01:2",
+      "group": "SELECTED_CASTER",
+      "link": "front_right_caster_wheel_link",
+      "mass_kg": 0.1,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "CasterWasherLower_Front_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Front_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Front_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Front_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Front_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Front_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Front_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Front_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBracket_Rear_Left",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.04372360858717832,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "CasterShim_Rear_Left",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.018542504620587184,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "GL65_Caster_Rear_Left/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "base_link",
+      "mass_kg": 0.04,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Rear_Left/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "rear_left_caster_swivel_link",
+      "mass_kg": 0.16,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Rear_Left/GDS-65-WHEEL_Sub Assy_Rev01:2",
+      "group": "SELECTED_CASTER",
+      "link": "rear_left_caster_wheel_link",
+      "mass_kg": 0.1,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Left_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Left_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Left_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Left_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBracket_Rear_Right",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.04372360858717832,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "CasterShim_Rear_Right",
+      "group": "CASTER_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.018542504620587184,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "GL65_Caster_Rear_Right/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "base_link",
+      "mass_kg": 0.04,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Rear_Right/GL-65-ASF:1",
+      "group": "SELECTED_CASTER",
+      "link": "rear_right_caster_swivel_link",
+      "mass_kg": 0.16,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "GL65_Caster_Rear_Right/GDS-65-WHEEL_Sub Assy_Rev01:2",
+      "group": "SELECTED_CASTER",
+      "link": "rear_right_caster_wheel_link",
+      "mass_kg": 0.1,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Right_-27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Right_-27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Right_27_-12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherLower_Rear_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltHead_Rear_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0036968397519592405,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterBoltShaft_Rear_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.005538701839674442,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterWasherUpper_Rear_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "CasterLocknut_Rear_Right_27_12",
+      "group": "CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0026585750467133145,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_2_0",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_left_wheel_link",
+      "mass_kg": 0.4083325943150355,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_1_1_1",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_left_wheel_link",
+      "mass_kg": 0.5070753151356693,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_3_2",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_left_wheel_link",
+      "mass_kg": 1.4758499957470532,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_4_1_3",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.12284453345063687,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_1_1_1_4",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_left_wheel_link",
+      "mass_kg": 0.40874209480224194,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_12_5",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.034716263238612,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_13_6",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.001206697624638346,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_14_7",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.006516242447500792,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Left/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_12_8",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.034716263238612,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "Axle_Washer_Left",
+      "group": "MDH_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.007071952424799834,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Axle_Nut_Left",
+      "group": "MDH_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.022340428398002182,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_2_0",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_right_wheel_link",
+      "mass_kg": 0.4083325943150355,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_1_1_1",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_right_wheel_link",
+      "mass_kg": 0.5070753151356693,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_3_2",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_right_wheel_link",
+      "mass_kg": 1.4758499957470532,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_4_1_3",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.12284453345063687,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_1_1_1_4",
+      "group": "INWHEEL_DRIVE",
+      "link": "center_right_wheel_link",
+      "mass_kg": 0.40874209480224194,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_12_5",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.034716263238612,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_13_6",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.001206697624638346,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_14_7",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.006516242447500792,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "MDH100_Right/_X2_4EA754C1_X0_1_ASM_9/_X2_96F64EF6_X0_12_8",
+      "group": "INWHEEL_DRIVE",
+      "link": "base_link",
+      "mass_kg": 0.034716263238612,
+      "basis": "MDH100 3kg each / GL65 0.30kg each; estimated fixed/rotating split, uniform CAD volume"
+    },
+    {
+      "name": "Axle_Washer_Right",
+      "group": "MDH_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.007071952424799834,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Axle_Nut_Right",
+      "group": "MDH_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.022340428398002182,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Existing_Laptop_BARE_DECK",
+      "group": "LAPTOP_TEST",
+      "link": "base_link",
+      "mass_kg": 2.38,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "24V_Battery_SIZE_PENDING",
+      "group": "ELECTRONICS",
+      "link": "base_link",
+      "mass_kg": 1.2,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "MD200T_2CH_Driver",
+      "group": "ELECTRONICS",
+      "link": "base_link",
+      "mass_kg": 0.43,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "Driver_Support_-75_15",
+      "group": "ELECTRONICS_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.0026800000000000005,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "Driver_Support_-75_89",
+      "group": "ELECTRONICS_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.0026800000000000005,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "Driver_Support_64_15",
+      "group": "ELECTRONICS_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.0026800000000000005,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "Driver_Support_64_89",
+      "group": "ELECTRONICS_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.0026800000000000005,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "24V_Distribution_SIZE_PENDING",
+      "group": "ELECTRONICS",
+      "link": "base_link",
+      "mass_kg": 0.3,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "USB_RS485_SIZE_PENDING",
+      "group": "ELECTRONICS",
+      "link": "base_link",
+      "mass_kg": 0.07,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "Emergency_Stop_Reservation",
+      "group": "ELECTRONICS",
+      "link": "base_link",
+      "mass_kg": 0.1,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "Front_Flush_Sensor_Shelf",
+      "group": "SENSOR_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.13796640000000002,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "Sensor_Shelf_Support_-45",
+      "group": "SENSOR_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.03024965555849179,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "Sensor_Shelf_Support_45",
+      "group": "SENSOR_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.03024965555849179,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "D435_Rear_Bracket",
+      "group": "SENSOR_MOUNT",
+      "link": "base_link",
+      "mass_kg": 0.03052802328940352,
+      "basis": "CAD volume x assumed density 2680kg/m3"
+    },
+    {
+      "name": "RealSense_D435_MANUFACTURER",
+      "group": "SENSORS",
+      "link": "base_link",
+      "mass_kg": 0.075,
+      "basis": "Existing mass budget; CAD battery/electrical dimensions remain reservations; LiDAR is CAD A1 envelope"
+    },
+    {
+      "name": "AxlePlate_Left",
+      "group": "PLATE",
+      "link": "base_link",
+      "mass_kg": 0.07603545464151332,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "RLB_reference_Left_-35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Left_-35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RLB_reference_Left_-12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Left_-12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RLB_reference_Left_12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Left_12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RLB_reference_Left_35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Left_35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "AxlePlate_Right",
+      "group": "PLATE",
+      "link": "base_link",
+      "mass_kg": 0.07603545464151332,
+      "basis": "3D printed fit-test part, solid polymer 1250kg/m3 assumption; rigid simulation only"
+    },
+    {
+      "name": "RLB_reference_Right_-35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Right_-35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RLB_reference_Right_-12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Right_-12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RLB_reference_Right_12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Right_12",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "RLB_reference_Right_35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.004900633451991963,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "NT30_Right_35",
+      "group": "FRAME_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_-165_-1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_-165_-1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_-165_-1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_-165_-1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_-165_-1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_-165_-1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_-165_1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_-165_1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_-165_1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_-165_1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_-165_1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_-165_1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_165_-1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_165_-1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_165_-1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_165_-1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_165_-1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_165_-1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_165_1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_165_1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_165_1_-30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_Washer_165_1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.0010160491383319047,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_M6x15_165_1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.007018745402104,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Rail_NT30_165_1_30",
+      "group": "RAIL_CASTER_FASTENER",
+      "link": "base_link",
+      "mass_kg": 0.002702707855444333,
+      "basis": "CAD volume x assumed density 7850kg/m3"
+    },
+    {
+      "name": "Wiring_allowance",
+      "group": "ALLOWANCE",
+      "link": "base_link",
+      "mass_kg": 0.25,
+      "basis": "unmodeled wiring / fastening allowance"
+    }
+  ],
+  "drive_track_m": 0.4075,
+  "drive_radius_m": 0.065,
+  "caster_radius_m": 0.032,
+  "caster_trail_m": 0.022,
+  "notes": [
+    "Mass/inertia/friction estimates, not hardware calibration or payload certification.",
+    "Solid printed plates modeled as rigid bodies; does not establish their strength.",
+    "Deck/laptop retained to match latest full CAD; deck purchase remains on hold.",
+    "CAD LiDAR remains A1 envelope. Purchased A2M12 shape not yet available; ray origin is assumed.",
+    "Battery/electrical envelopes follow CAD reservations, not actual component dimensions."
+  ]
+}

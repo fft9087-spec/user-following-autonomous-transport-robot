@@ -1,0 +1,30 @@
+# ROS 2 / colcon generated files
+build/
+install/
+log/
+.colcon/
+.ros/
+
+# New local test runs and maps (recorded evidence under outputs/ is tracked)
+/output/
+/outputs/maps/
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

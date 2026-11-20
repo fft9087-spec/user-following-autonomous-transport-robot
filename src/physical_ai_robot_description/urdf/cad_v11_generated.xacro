@@ -1,0 +1,63 @@
+<?xml version="1.0"?><robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:macro name="cad_base_link_inertial" params=""><inertial><origin xyz="0.00211994612 -0.004786038025 0.1985233971"/><mass value="14.20860141"/><inertia ixx="0.251499195" ixy="-0.005501452086" ixz="-0.00808197316" iyy="0.3306975272" iyz="-0.002368757028" izz="0.4031903138"/></inertial></xacro:macro>
+<xacro:macro name="cad_front_left_caster_swivel_link_inertial" params=""><inertial><origin xyz="-0.002749999416 0.0004999996532 -0.02749999953"/><mass value="0.16"/><inertia ixx="6.854666315e-05" ixy="0" ixz="0" iyy="7.433666199e-05" iyz="0" izz="6.221666123e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_front_left_caster_wheel_link_inertial" params=""><inertial><origin xyz="1.032725516e-09 -1.604815865e-06 -4.640018795e-08"/><mass value="0.1"/><inertia ixx="2.875453014e-05" ixy="-1.364079127e-12" ixz="3.57622435e-13" iyy="4.938295451e-05" iyz="-4.042344266e-12" izz="2.875456603e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_front_right_caster_swivel_link_inertial" params=""><inertial><origin xyz="-0.002749999416 0.0004999996532 -0.02749999953"/><mass value="0.16"/><inertia ixx="6.854666315e-05" ixy="0" ixz="0" iyy="7.433666199e-05" iyz="0" izz="6.221666123e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_front_right_caster_wheel_link_inertial" params=""><inertial><origin xyz="1.032725516e-09 -1.604815865e-06 -4.640018795e-08"/><mass value="0.1"/><inertia ixx="2.875453014e-05" ixy="-1.364079127e-12" ixz="3.57622435e-13" iyy="4.938295451e-05" iyz="-4.042344266e-12" izz="2.875456603e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_rear_left_caster_swivel_link_inertial" params=""><inertial><origin xyz="-0.002749999416 0.0004999996532 -0.02749999953"/><mass value="0.16"/><inertia ixx="6.854666315e-05" ixy="0" ixz="0" iyy="7.433666199e-05" iyz="0" izz="6.221666123e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_rear_left_caster_wheel_link_inertial" params=""><inertial><origin xyz="1.032725544e-09 -1.604815865e-06 -4.640018795e-08"/><mass value="0.1"/><inertia ixx="2.875453014e-05" ixy="-1.364079127e-12" ixz="3.57622435e-13" iyy="4.938295451e-05" iyz="-4.042344266e-12" izz="2.875456603e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_rear_right_caster_swivel_link_inertial" params=""><inertial><origin xyz="-0.002749999416 0.0004999996532 -0.02749999953"/><mass value="0.16"/><inertia ixx="6.854666315e-05" ixy="0" ixz="0" iyy="7.433666199e-05" iyz="0" izz="6.221666123e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_rear_right_caster_wheel_link_inertial" params=""><inertial><origin xyz="1.032725544e-09 -1.604815865e-06 -4.640018795e-08"/><mass value="0.1"/><inertia ixx="2.875453014e-05" ixy="-1.364079127e-12" ixz="3.57622435e-13" iyy="4.938295451e-05" iyz="-4.042344266e-12" izz="2.875456603e-05"/></inertial></xacro:macro>
+<xacro:macro name="cad_center_left_wheel_link_inertial" params=""><inertial><origin xyz="3.714713783e-09 0.0007727585067 -7.985659217e-09"/><mass value="2.8"/><inertia ixx="0.004293021172" ixy="2.917167897e-10" ixz="-2.806325366e-09" iyy="0.007168518644" iyz="3.09178356e-09" izz="0.004293116028"/></inertial></xacro:macro>
+<xacro:macro name="cad_center_right_wheel_link_inertial" params=""><inertial><origin xyz="-3.714713783e-09 -0.0007727585067 -7.985659217e-09"/><mass value="2.8"/><inertia ixx="0.004293021172" ixy="2.917167897e-10" ixz="2.806325366e-09" iyy="0.007168518644" iyz="-3.09178356e-09" izz="0.004293116028"/></inertial></xacro:macro>
+<xacro:macro name="cad_base_collisions" params="">
+<collision name="cad_fixed_0"><origin xyz="0.0 0.14500000000000002 0.108"/><geometry><box size="0.42 0.03 0.03"/></geometry></collision>
+<collision name="cad_fixed_1"><origin xyz="0.0 0.14500000000000002 0.258"/><geometry><box size="0.42 0.03 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_2"><origin xyz="0.0 -0.14500000000000002 0.108"/><geometry><box size="0.42 0.03 0.03"/></geometry></collision>
+<collision name="cad_fixed_3"><origin xyz="0.0 -0.14500000000000002 0.258"/><geometry><box size="0.42 0.03 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_4"><origin xyz="-0.195 0.0 0.108"/><geometry><box size="0.03 0.26 0.03"/></geometry></collision>
+<collision name="cad_fixed_5"><origin xyz="-0.195 0.0 0.258"/><geometry><box size="0.03 0.26 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_6"><origin xyz="-0.105 0.0 0.108"/><geometry><box size="0.03 0.26 0.03"/></geometry></collision>
+<collision name="cad_fixed_7"><origin xyz="-0.105 0.0 0.258"/><geometry><box size="0.03 0.26 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_8"><origin xyz="0.0 0.0 0.108"/><geometry><box size="0.03 0.26 0.03"/></geometry></collision>
+<collision name="cad_fixed_9"><origin xyz="0.0 0.0 0.258"/><geometry><box size="0.03 0.26 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_10"><origin xyz="0.105 0.0 0.108"/><geometry><box size="0.03 0.26 0.03"/></geometry></collision>
+<collision name="cad_fixed_11"><origin xyz="0.105 0.0 0.258"/><geometry><box size="0.03 0.26 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_12"><origin xyz="0.195 0.0 0.108"/><geometry><box size="0.03 0.26 0.03"/></geometry></collision>
+<collision name="cad_fixed_13"><origin xyz="0.195 0.0 0.258"/><geometry><box size="0.03 0.26 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_14"><origin xyz="0.0 0.0 0.275"/><geometry><box size="0.42 0.32 0.0040000000000000036"/></geometry></collision>
+<collision name="cad_fixed_15"><origin xyz="-0.09000000000000001 0.175 0.26"/><geometry><box size="0.036000000000000004 0.03 0.03400000000000003"/></geometry></collision>
+<collision name="cad_fixed_16"><origin xyz="-0.09 0.169 0.2805"/><geometry><box size="0.036000000000000004 0.04199999999999998 0.007000000000000006"/></geometry></collision>
+<collision name="cad_fixed_17"><origin xyz="0.0 0.175 0.26"/><geometry><box size="0.036000000000000004 0.03 0.03400000000000003"/></geometry></collision>
+<collision name="cad_fixed_18"><origin xyz="0.0 0.169 0.2805"/><geometry><box size="0.036000000000000004 0.04199999999999998 0.007000000000000006"/></geometry></collision>
+<collision name="cad_fixed_19"><origin xyz="0.09 0.175 0.26"/><geometry><box size="0.036000000000000004 0.03 0.03400000000000003"/></geometry></collision>
+<collision name="cad_fixed_20"><origin xyz="0.09 0.169 0.2805"/><geometry><box size="0.036000000000000004 0.04199999999999998 0.007000000000000006"/></geometry></collision>
+<collision name="cad_fixed_21"><origin xyz="-0.09 -0.175 0.26"/><geometry><box size="0.036000000000000004 0.03 0.03400000000000003"/></geometry></collision>
+<collision name="cad_fixed_22"><origin xyz="-0.09 -0.169 0.2805"/><geometry><box size="0.036000000000000004 0.04199999999999998 0.007000000000000006"/></geometry></collision>
+<collision name="cad_fixed_23"><origin xyz="0.0 -0.175 0.26"/><geometry><box size="0.036000000000000004 0.03 0.03400000000000003"/></geometry></collision>
+<collision name="cad_fixed_24"><origin xyz="0.0 -0.169 0.2805"/><geometry><box size="0.036000000000000004 0.04199999999999998 0.007000000000000006"/></geometry></collision>
+<collision name="cad_fixed_25"><origin xyz="0.09000000000000001 -0.175 0.26"/><geometry><box size="0.036000000000000004 0.03 0.03400000000000003"/></geometry></collision>
+<collision name="cad_fixed_26"><origin xyz="0.09 -0.169 0.2805"/><geometry><box size="0.036000000000000004 0.04199999999999998 0.007000000000000006"/></geometry></collision>
+<collision name="cad_fixed_27"><origin xyz="0.212 0.1 0.26149999999999995"/><geometry><box size="0.0040000000000000036 0.01999999999999999 0.03699999999999998"/></geometry></collision>
+<collision name="cad_fixed_28"><origin xyz="-0.212 0.0 0.26149999999999995"/><geometry><box size="0.0040000000000000036 0.02 0.03699999999999998"/></geometry></collision>
+<collision name="cad_fixed_29"><origin xyz="0.0 0.0 0.1245"/><geometry><box size="0.42 0.2 0.0030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_30"><origin xyz="-0.195 -0.14500000000000002 0.183"/><geometry><box size="0.03 0.03 0.12"/></geometry></collision>
+<collision name="cad_fixed_31"><origin xyz="-0.195 0.14500000000000002 0.183"/><geometry><box size="0.03 0.03 0.12"/></geometry></collision>
+<collision name="cad_fixed_32"><origin xyz="0.195 -0.14500000000000002 0.183"/><geometry><box size="0.03 0.03 0.12"/></geometry></collision>
+<collision name="cad_fixed_33"><origin xyz="0.195 0.14500000000000002 0.183"/><geometry><box size="0.03 0.03 0.12"/></geometry></collision>
+<collision name="cad_fixed_34"><origin xyz="0.165 0.17250000000000001 0.0905"/><geometry><box size="0.08500000000000002 0.08500000000000002 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_35"><origin xyz="0.165 0.185 0.0855"/><geometry><box size="0.065 0.048000000000000015 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_36"><origin xyz="0.165 -0.17250000000000001 0.0905"/><geometry><box size="0.08500000000000002 0.08500000000000002 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_37"><origin xyz="0.165 -0.185 0.0855"/><geometry><box size="0.065 0.048000000000000015 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_38"><origin xyz="-0.165 0.17250000000000001 0.0905"/><geometry><box size="0.085 0.08500000000000002 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_39"><origin xyz="-0.165 0.185 0.0855"/><geometry><box size="0.065 0.048000000000000015 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_40"><origin xyz="-0.165 -0.17250000000000001 0.0905"/><geometry><box size="0.085 0.08500000000000002 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_41"><origin xyz="-0.165 -0.185 0.0855"/><geometry><box size="0.065 0.048000000000000015 0.0050000000000000044"/></geometry></collision>
+<collision name="cad_fixed_42"><origin xyz="-0.020000007324218777 6.10351563734568e-09 0.28894999980926517"/><geometry><box size="0.3598599853515625 0.25870001220703126 0.023899999618530288"/></geometry></collision>
+<collision name="cad_fixed_43"><origin xyz="0.2685 0.0 0.275"/><geometry><box size="0.11700000000000002 0.11 0.0040000000000000036"/></geometry></collision>
+<collision name="cad_fixed_44"><origin xyz="0.2685 -0.045000000000000005 0.258"/><geometry><box size="0.11700000000000002 0.020000000000000004 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_45"><origin xyz="0.2685 0.045 0.258"/><geometry><box size="0.11700000000000002 0.019999999999999997 0.030000000000000027"/></geometry></collision>
+<collision name="cad_fixed_46"><origin xyz="0.3185 0.0 0.28725"/><geometry><box size="0.02300000000000002 0.07 0.034499999999999975"/></geometry></collision>
+<collision name="cad_fixed_47"><origin xyz="0.0 0.164 0.08300307"/><geometry><box size="0.1 0.008000000000000007 0.07999999999999999"/></geometry></collision>
+<collision name="cad_fixed_48"><origin xyz="0.0 -0.164 0.08300307"/><geometry><box size="0.1 0.008000000000000007 0.07999999999999999"/></geometry></collision>
+</xacro:macro></robot>

@@ -1,0 +1,62 @@
+[
+  {
+    "tag": "baseline_loop",
+    "passed": true,
+    "completed": 4,
+    "tested_legs": 4,
+    "elapsed_s": 111.24,
+    "path_m": 20.899,
+    "minimum_conservative_clearance_m": 0.164,
+    "maximum_tilt_deg": 0.01013202569319135,
+    "controller_rate_misses": 0,
+    "warnings": [
+      "planner_server: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 10.0000 Hz"
+    ],
+    "max_sampled_linear_speed": 0.25031943535748385,
+    "max_sampled_angular_speed": 0.5242988830177524
+  },
+  {
+    "tag": "balanced_loop_1",
+    "passed": true,
+    "completed": 4,
+    "tested_legs": 4,
+    "elapsed_s": 92.03,
+    "path_m": 20.87,
+    "minimum_conservative_clearance_m": 0.1599,
+    "maximum_tilt_deg": 0.010486178693329176,
+    "controller_rate_misses": 0,
+    "warnings": [],
+    "max_sampled_linear_speed": 0.30084472359601633,
+    "max_sampled_angular_speed": 0.5939591680435643
+  },
+  {
+    "tag": "balanced_loop_2",
+    "passed": true,
+    "completed": 4,
+    "tested_legs": 4,
+    "elapsed_s": 91.93,
+    "path_m": 20.694,
+    "minimum_conservative_clearance_m": 0.1525,
+    "maximum_tilt_deg": 0.009962191100831371,
+    "controller_rate_misses": 0,
+    "warnings": [
+      "planner_server: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 10.0000 Hz"
+    ],
+    "max_sampled_linear_speed": 0.3005837871548743,
+    "max_sampled_angular_speed": 0.5939546493284844
+  },
+  {
+    "tag": "final_loop_3",
+    "passed": true,
+    "completed": 4,
+    "tested_legs": 4,
+    "elapsed_s": 91.08,
+    "path_m": 20.935,
+    "minimum_conservative_clearance_m": 0.1359,
+    "maximum_tilt_deg": 0.010092713561997294,
+    "controller_rate_misses": 0,
+    "warnings": [],
+    "max_sampled_linear_speed": 0.3004962105272633,
+    "max_sampled_angular_speed": 0.5939524189644441
+  }
+]

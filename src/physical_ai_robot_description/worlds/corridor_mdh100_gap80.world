@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.6">
+  <world name="corridor_speed_trial">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <model name="north_east">
+      <static>true</static>
+      <pose>2.5 2.5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.62 0.68 0.73 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="north_west">
+      <static>true</static>
+      <pose>-2.5 2.5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.62 0.68 0.73 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="south_east">
+      <static>true</static>
+      <pose>2.5 -2.5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.62 0.68 0.73 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="south_west">
+      <static>true</static>
+      <pose>-2.5 -2.5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>3.2 3.2 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.62 0.68 0.73 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="end_north">
+      <static>true</static>
+      <pose>0 4.1 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>8.3 0.1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>8.3 0.1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="end_south">
+      <static>true</static>
+      <pose>0 -4.1 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>8.3 0.1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>8.3 0.1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="end_east">
+      <static>true</static>
+      <pose>4.1 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 8.3 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 8.3 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="end_west">
+      <static>true</static>
+      <pose>-4.1 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 8.3 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 8.3 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="measured_box_gap_80cm">
+      <static>true</static>
+      <pose>2.2 -0.4 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 1.0 0.6</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.5 1.0 0.6</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.85 0.45 0.10 1</ambient>
+            <diffuse>0.85 0.45 0.10 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="test_box_west">
+      <static>true</static>
+      <pose>-2.2 0.55 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.7 0.6</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.5 0.7 0.6</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.85 0.45 0.10 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="test_box_north">
+      <static>true</static>
+      <pose>-0.55 2.2 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.7 0.5 0.6</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.7 0.5 0.6</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.85 0.45 0.10 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

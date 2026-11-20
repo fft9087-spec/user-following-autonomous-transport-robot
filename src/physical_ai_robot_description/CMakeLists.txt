@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.8)
+project(physical_ai_robot_description)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY config launch rviz urdf worlds maps meshes DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS scripts/multi_goal_mission.py scripts/sim_motion_guard.py DESTINATION lib/${PROJECT_NAME})
+ament_package()
